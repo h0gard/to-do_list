@@ -2,7 +2,7 @@
 require_once 'includes/db.php';
 
 if (!defined('DEFAULT_URL')) {
-    define('DEFAULT_URL', 'http://localhost/to-do_list/');
+    define('DEFAULT_URL', 'http://localhost/projects/to-do_list/');
 }
 function debug($tmp){
     echo '<pre>';
